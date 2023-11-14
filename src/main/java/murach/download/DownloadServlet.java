@@ -43,7 +43,7 @@ public class DownloadServlet extends HttpServlet {
     public void doPost(HttpServletRequest request,
                        HttpServletResponse response)
             throws IOException, ServletException {
-
+        request.setCharacterEncoding("UTF-8");
         String action = request.getParameter("action");
 
         // perform action and set URL to appropriate page

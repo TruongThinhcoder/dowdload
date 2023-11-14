@@ -12,7 +12,7 @@
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:if test="${cookie.firstNameCookie.value != null}">
-    <p>Welcome back, <c:out value='${cookie.firstNameCookie.value}'/></p>
+    <p>Welcome back</p>
 </c:if>
 
 <p>
